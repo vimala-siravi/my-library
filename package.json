@@ -1,6 +1,6 @@
 {
   "name": "@vimala-siravi/my-library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "source": "src/index.js",
@@ -23,7 +23,10 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.6"
   },
   "eslintConfig": {
     "extends": [
